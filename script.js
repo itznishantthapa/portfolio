@@ -29,6 +29,9 @@ document.getElementById("mode").addEventListener("click", () => {
         document.getElementById("bar").style.color = "rgba(0, 8, 20, 0.5)";
         document.getElementById("bar").style.backgroundColor = "rgba(222, 222, 222, 0.5)";
 
+        // for icons
+        // document.querySelector("p").style.backbbbbbbbbbvgroundColor="grey";
+
         modeTurn = true;
     }
     else {
@@ -73,3 +76,9 @@ document.addEventListener("scroll", () => {
     }
 });
 
+// let circles=document.querySelectorAll(".circle");
+// circles.forEach((eachCircle)=>{
+//     eachCircle.addEventListener("mouseover",()=>{
+//         document.getElementById
+//     });
+// });
